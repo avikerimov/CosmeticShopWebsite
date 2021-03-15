@@ -20,7 +20,7 @@ function DiorMan() {
         <h1 className="d-none">Dior Man</h1>
         <img className="my-5" src={logo} alt="" />
         <Carousel carousel={diorManCarousel} />
-        <h2>Hello</h2>
+        <h2>Hello world</h2>
       </div>
       <div className="row">
         {diorManPerfumes.map((dior, i) => (
